@@ -6,24 +6,33 @@
   </head>
   <body>
     <svg width="105%"viewbox="0 0 2000 2000">
-    <!--BACKGROUND-->
-    <rect x="1"y="1"width="2000"height="2000"fill="black"/>
     <!--CANDLE-->
-    <rect x="1000"y="800"height="500"width="100"fill="white"/>
+    <rect x="1000"y="800"height="500"width="100"fill="white">
+
+  </rect>
     <!--TABLE-->
     <rect x="950"y="1280"height="300"width="200"fill="dimgray"/>
     <!--CANDLE LIGHT-->
-    <ellipse cx="1050"cy="725"rx="14"ry="70"fill="gold">
-    <animate attributeName="fill"from="gold"to="black"dur="0.3"repeatCount="indefinite"/>
+    <ellipse cx="1050"cy="725"rx="14"ry="70"fill="orange">
   </ellipse>
-    <circle cx="1050"cy="701"r="140"fill="yellow"fill-opacity="0.3">
+    <circle cx="1050"cy="701"r="150"fill="yellow"fill-opacity="0.3">
     <animate attributeName="fill"from="yellow"to="black"dur="0.25s"repeatCount="indefinite"/>
   </circle>
     <circle cx="1050"cy="680"r="250"fill="lightyellow"fill-opacity="0.2">
     <animate attributeName="fill"from="lightyellow"to="black"dur="0.4s"repeatcount="indefinite"/>
   </circle>
-    <circle cx="1050"cy="680"r="330"fill="white"fill-opacity="0.1"
-
+    <circle cx="1050"cy="680"r="330"fill="white"fill-opacity="0.1">
+  </circle>
+  <!--OTHER CANDLES-->
+      <rect x="350"y="800"height="500"width="100"fill="white">
+      <animate attributeName="x"from="350"to="1000"dur="7s"begin="mouseover"/>
+    </rect>
+      <rect x="300"y="1280"height="300"width="200"fill="dimgray">
+      <animate attributeName="x"from="300"to="950"dur="7s"begin="mouseover"/>
+    </rect>
+  <!--TEXT-->
+  <h1>The Candle in the night</h1>
+  <p>In order for a light to shine brightly, darkness must be present</p>
 
     <!-- page content -->
   </body>
