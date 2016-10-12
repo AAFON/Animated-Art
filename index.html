@@ -6,21 +6,24 @@
   </head>
   <body>
     <svg width="105%"viewbox="0 0 2000 2000">
-    <!--BACKGROUND ANIMATION-->
-    <rect x="1"y="1"width="2000"height="2000"fill="lightblue">
-      </rect>
-    <!--SUN ANIMATION-->
-    <circle cx="1000"cy="1"r="310"fill="gold">
-      <animate attributeName="fill"from="lightyellow"to="darkorange"dur="60"repeatCount="indefinite"/>
-    </circle>
-    <!--OCEAN ANIMATION-->
-    <rect x="1"y="1500"width="2000"height="500"fill="blue">
-      <animate attributeName="fill"from="blue"to="darkslateblue"dur="60"repeatCount="indefinite"/>
-    </rect>
-    <!--SUN REFLECTION ANIMATION-->
-    <ellipse cx="1000"cy="1540"rx="400"ry="100"fill="white"fill-opacity="0.2">
-      <animate attributeName="fill"from="white"to="orange"dur="60"repeatCount="indefinite"/>
-    </ellipse>
+    <!--BACKGROUND-->
+    <rect x="1"y="1"width="2000"height="2000"fill="black"/>
+    <!--CANDLE-->
+    <rect x="1000"y="800"height="500"width="100"fill="white"/>
+    <!--TABLE-->
+    <rect x="950"y="1280"height="300"width="200"fill="dimgray"/>
+    <!--CANDLE LIGHT-->
+    <ellipse cx="1050"cy="725"rx="14"ry="70"fill="gold">
+    <animate attributeName="fill"from="gold"to="black"dur="0.3"repeatCount="indefinite"/>
+  </ellipse>
+    <circle cx="1050"cy="701"r="140"fill="yellow"fill-opacity="0.3">
+    <animate attributeName="fill"from="yellow"to="black"dur="0.25s"repeatCount="indefinite"/>
+  </circle>
+    <circle cx="1050"cy="680"r="250"fill="lightyellow"fill-opacity="0.2">
+    <animate attributeName="fill"from="lightyellow"to="black"dur="0.4s"repeatcount="indefinite"/>
+  </circle>
+    <circle cx="1050"cy="680"r="330"fill="white"fill-opacity="0.1"
+
 
     <!-- page content -->
   </body>
